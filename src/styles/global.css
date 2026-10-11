@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Fraenkisch';
-  src: url('/fonts/Fraenkisch.ttf') format('truetype');
+  font-family: "Fraenkisch";
+  src: url("/fonts/Fraenkisch.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -22,7 +22,8 @@
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052, serif;
+  font-family:
+    "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052, serif;
   font-weight: 400;
   min-height: 100vh;
   width: 100vw;
@@ -36,7 +37,9 @@ a {
   color: var(--heading-color);
   text-decoration: none;
   border-bottom: 1px solid var(--accent-color);
-  transition: border-color 0.4s ease, opacity 0.4s ease;
+  transition:
+    border-color 0.4s ease,
+    opacity 0.4s ease;
   font-weight: 400;
 }
 
@@ -45,8 +48,13 @@ a:hover {
   opacity: 0.8;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Fraenkisch', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fraenkisch", serif;
   color: var(--heading-color);
   font-weight: 400;
 }

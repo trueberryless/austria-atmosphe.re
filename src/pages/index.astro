@@ -1,25 +1,62 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Austria Atmosphere" description="Growing the open web in Austria. Join our meetups or ping us for event visibility.">
+<Layout
+  title="Austria Atmosphere"
+  description="Growing the open web in Austria. Join our meetups or ping us for event visibility."
+>
   <main>
     <h1>Austria Atmosphere</h1>
     <p class="subtitle">Spreading the holy word of the open web.</p>
 
     <div class="content">
-      <p>We are a community in Austria. We want to grow the open web. We believe in open standards and decentralization.</p>
+      <p>
+        We are a community in Austria. We want to grow the open web. We believe
+        in open standards and decentralization.
+      </p>
 
-      <p>We build around the AT Protocol. It is a new technology for social networks. It powers applications like Bluesky. It gives users true ownership over their data. It allows different platforms to communicate directly.</p>
+      <p>
+        We build around the AT Protocol. It is a new technology for social
+        networks. It powers applications like Bluesky. It gives users true
+        ownership over their data. It allows different platforms to communicate
+        directly.
+      </p>
 
-      <p>We organize meetups. We sometimes gather in Vienna. We encourage people to host gatherings everywhere in Austria.</p>
+      <p>
+        We organize meetups. We sometimes gather in Vienna. We encourage people
+        to host gatherings everywhere in Austria.
+      </p>
 
-      <p>You can host your own event. Just ping us if you need visibility. We will create an event page for you on <a href="https://atmo.rsvp/p/austria-atmosphe.re" target="_blank" rel="noopener noreferrer">atmo.rsvp</a>.</p>
+      <p>
+        You can host your own event. Just ping us if you need visibility. We
+        will create an event page for you on{" "}
+        <a
+          href="https://atmo.rsvp/p/austria-atmosphe.re"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          atmo.rsvp
+        </a>
+        .
+      </p>
     </div>
 
     <nav>
-      <a href="https://atproto.com/guides/faq" target="_blank" rel="noopener noreferrer">What is AT Protocol?</a>
-      <a href="https://mu.social/profile/austria-atmosphe.re" target="_blank" rel="noopener noreferrer">mu.social</a>
+      <a
+        href="https://atproto.com/guides/faq"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        What is AT Protocol?
+      </a>
+      <a
+        href="https://mu.social/profile/austria-atmosphe.re"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        mu.social
+      </a>
     </nav>
   </main>
 </Layout>
@@ -43,7 +80,7 @@ import Layout from '../layouts/Layout.astro';
   }
   .subtitle {
     font-size: 1.8rem;
-    font-family: 'Fraenkisch', serif;
+    font-family: "Fraenkisch", serif;
     color: var(--text-color);
   }
   .content {
@@ -60,7 +97,13 @@ import Layout from '../layouts/Layout.astro';
     margin-top: 1rem;
   }
   @keyframes fade-in {
-    0% { opacity: 0; transform: translateY(10px); }
-    100% { opacity: 1; transform: translateY(0); }
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 </style>
