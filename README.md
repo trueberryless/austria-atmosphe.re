@@ -18,3 +18,9 @@ We build around the AT Protocol, a new technology for social networks that gives
 
 - [What is AT Protocol?](https://atproto.com/guides/faq)
 - [mu.social profile](https://mu.social/profile/austria-atmosphe.re)
+
+## License
+
+Licensed under the MIT license, Copyright © trueberryless.
+
+See [LICENSE](https://github.com/trueberryless/austria-atmosphe.re/blob/main/LICENSE) for more information.

@@ -1,18 +1,33 @@
 {
   "name": "austria-atmosphe.re",
-  "type": "module",
   "version": "0.0.1",
-  "engines": {
-    "node": ">=24"
+  "homepage": "https://austria-atmosphe.re/",
+  "bugs": {
+    "url": "https://github.com/trueberryless/austria-atmosphe.re/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trueberryless/austria-atmosphe.re.git"
+  },
+  "license": "MIT",
+  "author": "trueberryless <trueberryless@gmail.com> (https://felixs.dev)",
+  "type": "module",
   "scripts": {
-    "dev": "astro dev",
+    "astro": "astro",
     "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "dev": "astro dev",
+    "preview": "astro preview"
   },
   "dependencies": {
     "astro": "^7.3.5"
   },
-  "packageManager": "pnpm@11.28.0"
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "6.0.2",
+    "prettier": "3.9.9",
+    "prettier-plugin-astro": "1.1.0"
+  },
+  "packageManager": "pnpm@11.28.0",
+  "engines": {
+    "node": ">=24"
+  }
 }
